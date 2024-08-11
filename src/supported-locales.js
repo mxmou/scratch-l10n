@@ -22,6 +22,7 @@ const locales = {
     'de': {name: 'Deutsch'},
     'et': {name: 'Eesti'},
     'el': {name: 'Ελληνικά'},
+    'emoji': {name: 'Emoji'},
     'en': {name: 'English'},
     'es': {name: 'Español (España)'},
     'es-419': {name: 'Español Latinoamericano'},
@@ -95,6 +96,10 @@ const customLocales = {
     'an': {
         locale: 'an',
         parentLocale: 'es'
+    },
+    'emoji': {
+        locale: 'emoji',
+        parentLocale: 'en'
     },
     // haitian creole is not in locale-langData
     'ht': {
